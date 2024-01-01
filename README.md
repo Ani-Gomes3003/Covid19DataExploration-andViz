@@ -4,18 +4,7 @@
 
 This repository contains SQL queries and Tableau visualizations exploring COVID-19 data. The project aims to uncover insights into the pandemic's impact using data analysis and visualization.
 
-## SQL Data Exploration
--- Total Cases vs Total Deaths
--- Shows likelihood of dying if you contract covid in your country
 
-SELECT 
-    location,
-    total_cases,
-    (total_deaths / total_cases) * 100 AS DeathPercentage
-FROM
-    covidds
-WHERE continent is not null -- and location like '%states%'
-ORDER BY 1, 2
 
 - **Global Insights Snapshot:**
   - Query to capture total cases, deaths, and death percentage globally.
