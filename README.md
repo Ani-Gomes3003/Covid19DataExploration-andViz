@@ -3,20 +3,36 @@
 ## Overview
 
 This repository contains SQL queries and Tableau visualizations exploring COVID-19 data. The project aims to uncover insights into the pandemic's impact using data analysis and visualization.
+## SQL Data Exploration Project
 
+The (SQL_COVID_19datalorationproject.sqexpl) file contains a series of SQL queries designed to explore and analyze COVID-19 data. Each query addresses specific questions, providing insights into various aspects of the pandemic. Below is a brief overview of the queries included in the file:
 
+1. **Q1: Total Cases vs Total Deaths**
+   - Analyzes the likelihood of death if contracting COVID-19 in different countries.
 
-- **Global Insights Snapshot:**
-  - Query to capture total cases, deaths, and death percentage globally.
+2. **Q2: Total Cases vs Population**
+   - Explores the percentage of the population infected with COVID-19.
 
-- **Continent Chronicles:**
-  - Query showcasing death counts across continents.
+3. **Q3: Death Percentage in All Countries**
+   - Displays the death percentage in all countries.
 
-- **Mapping the Pandemic:**
-  - Query revealing infected populations in diverse countries.
+4. **Q4: Countries with Highest Infection Rate compared to Population**
+   - Identifies countries with the highest infection rate relative to their population.
 
-- **Time Series Marvel:**
-  - Query predicting the trajectory of infections with a time series line chart.
+5. **Q5: Countries with Highest Death Count per Population**
+   - Highlights countries with the highest death count per population.
+
+6. **Q6: Breaking Things Down by Continent**
+   - Shows continents with the highest death count per population.
+
+7. **Q7: Global Numbers**
+   - Provides an overview of global cases, deaths, and the percentage of deaths.
+
+8. **Q8: Total Population vs Vaccinations**
+   - Shows the count of the population that has received at least one COVID vaccine.
+
+9. **Q9: Using CTE to Perform Calculation on Partition By in Previous Query**
+   - [Provide a brief description here.]
 
 ## Tableau Project Overview
 
