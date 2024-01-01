@@ -34,7 +34,7 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
 
 3. **Mapping the Pandemic:**
    Explore a captivating map revealing the virus's journey, vividly showcasing infected populations in diverse countries.
-   ![Mapping the Pandemic](imagestab/global_numbers.png)
+   ![Mapping the Pandemic](imagestab/people_infected.png)
 
 4. **Time Series Marvel:**
    Dive into a captivating time series with a line chart featuring the top 5 countries, predicting the trajectory of infections.
