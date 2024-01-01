@@ -26,7 +26,7 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
 
 1. **Global Insights Snapshot:**
    Explore the total cases, deaths, and death percentage, capturing the heartbeat of the pandemic on a global stage.
-   ![Global Insights Snapshot](Covid19DataViz/global numbers.png)
+   ![Global Insights Snapshot](imagestab/global_numbers.png)
  
 2. **Continent Chronicles:**
    Witness death counts across continents in a dynamic pie chart, where Europe, North America, and South America steal the spotlight.
@@ -34,7 +34,7 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
 
 3. **Mapping the Pandemic:**
    Explore a captivating map revealing the virus's journey, vividly showcasing infected populations in diverse countries.
-   ![Mapping the Pandemic](Tableau_Visualizations/Mapping_the_Pandemic.png)
+   ![Mapping the Pandemic](imagestab/global_numbers.png)
 
 4. **Time Series Marvel:**
    Dive into a captivating time series with a line chart featuring the top 5 countries, predicting the trajectory of infections.
