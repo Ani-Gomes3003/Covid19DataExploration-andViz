@@ -38,7 +38,7 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
 
 4. **Time Series Marvel:**
    Dive into a captivating time series with a line chart featuring the top 5 countries, predicting the trajectory of infections.
-   ![Time Series Marvel](timeseries.png)
+   ![Time Series Marvel](imagestab\timeseries.png)
 
 ## How to Interact
 
