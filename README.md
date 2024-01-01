@@ -14,3 +14,7 @@ Impact of Interventions: Investigated the effects of various interventions, from
 Recovery Rates and Resilience: Analyzed recovery rates, offering a story of resilience and the efficacy of healthcare systems.
 
 Visualizations: Translated SQL insights into compelling visualizations, creating a captivating narrative of the pandemic journey.
+
+
+Use `SELECT * FROM table_name;` to retrieve all records from a table.
+
