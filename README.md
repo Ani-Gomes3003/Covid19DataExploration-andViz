@@ -30,7 +30,7 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
  
 2. **Continent Chronicles:**
    Witness death counts across continents in a dynamic pie chart, where Europe, North America, and South America steal the spotlight.
-   ![Continent Chronicles](Tableau_Visualizations/Continent_Chronicles.png)
+   ![Continent Chronicles](imagestab/continent.png)
 
 3. **Mapping the Pandemic:**
    Explore a captivating map revealing the virus's journey, vividly showcasing infected populations in diverse countries.
