@@ -32,10 +32,3 @@ This repository contains SQL queries and Tableau visualizations exploring COVID-
 - **Time Series Marvel:**
   - Line chart featuring the top 5 countries, predicting infection trajectory.
 
-## How to Run the Project Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-
-
