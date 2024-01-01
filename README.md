@@ -43,13 +43,10 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
 
 To interact with the Tableau visualizations:
 - Click on the links above to view individual visualizations.
-- For an immersive experience, visit the [Tableau Public Dashboard](link-to-your-tableau-dashboard) for the complete project.
+- For an immersive experience, visit the [Tableau Public Dashboard](https://public.tableau.com/views/Covid19analysisdashboard_17005730628510/covid19dashboard?:language=en-US&:display_count=n&:origin=viz_share_link) for the complete project.
 
 Feel free to explore, analyze, and share your insights!
 
 ---
-
-**Note:** Replace `link-to-your-tableau-dashboard` with the actual link to your Tableau Public Dashboard or the hosted version of your project.
-
 
 
