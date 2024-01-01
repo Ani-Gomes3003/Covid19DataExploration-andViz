@@ -26,8 +26,8 @@ Embark on a visual journey through the narratives uncovered in our COVID-19 data
 
 1. **Global Insights Snapshot:**
    Explore the total cases, deaths, and death percentage, capturing the heartbeat of the pandemic on a global stage.
-   ![Global Insights Snapshot](Tableau_Visualizations/Global_Insights_Snapshot.png)
-
+   ![Global Insights Snapshot](Covid19DataViz/global numbers.png)
+ 
 2. **Continent Chronicles:**
    Witness death counts across continents in a dynamic pie chart, where Europe, North America, and South America steal the spotlight.
    ![Continent Chronicles](Tableau_Visualizations/Continent_Chronicles.png)
