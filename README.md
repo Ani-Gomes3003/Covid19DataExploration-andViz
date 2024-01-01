@@ -4,8 +4,9 @@
 
 This repository contains SQL queries and Tableau visualizations exploring COVID-19 data. The project aims to uncover insights into the pandemic's impact using data analysis and visualization.
 ## SQL Data Exploration Project
-To view the complete SQL file, click [here](https://raw.githubusercontent.com/your-username/your-repository/main/SQL%20COVID_19%20data%20exploration%20project.sql).
-The SQL_COVID_19datalorationproject.sql file contains a series of SQL queries designed to explore and analyze COVID-19 data. Each query addresses specific questions, providing insights into various aspects of the pandemic. Below is a brief overview of the queries included in the file:
+To view the complete SQL file, click [here]([https://raw.githubusercontent.com/your-username/your-repository/main/SQL%20COVID_19%20data%20exploration%20project.sql](https://github.com/Ani-Gomes3003/Covid19DataExploration-andViz/blob/main/SQL_COVID_19datalorationproject.sql)).
+
+The SQL_COVID_19 Datalorationproject.sql file contains a series of SQL queries designed to explore and analyze COVID-19 data. Each query addresses specific questions, providing insights into various aspects of the pandemic. Below is a brief overview of the queries included in the file:
 
 1. **Q1: Total Cases vs Total Deaths**
    - Analyzes the likelihood of death if contracting COVID-19 in different countries.
