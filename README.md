@@ -18,17 +18,39 @@ This repository contains SQL queries and Tableau visualizations exploring COVID-
 - **Time Series Marvel:**
   - Query predicting the trajectory of infections with a time series line chart.
 
-## Tableau Visualizations
+## Tableau Project Overview
 
-- **Global Insights Snapshot:**
-  - Visual exploration of total cases, deaths, and death percentage globally.
+Embark on a visual journey through the narratives uncovered in our COVID-19 data exploration. The Tableau visualizations enhance the understanding of the pandemic's impact, presenting insights in a captivating and interactive way.
 
-- **Continent Chronicles:**
-  - Dynamic pie chart displaying death counts across continents.
+### Visualizations
 
-- **Mapping the Pandemic:**
-  - Captivating map showcasing the virus's journey.
+1. **Global Insights Snapshot:**
+   Explore the total cases, deaths, and death percentage, capturing the heartbeat of the pandemic on a global stage.
+   ![Global Insights Snapshot](Tableau_Visualizations/Global_Insights_Snapshot.png)
 
-- **Time Series Marvel:**
-  - Line chart featuring the top 5 countries, predicting infection trajectory.
+2. **Continent Chronicles:**
+   Witness death counts across continents in a dynamic pie chart, where Europe, North America, and South America steal the spotlight.
+   ![Continent Chronicles](Tableau_Visualizations/Continent_Chronicles.png)
+
+3. **Mapping the Pandemic:**
+   Explore a captivating map revealing the virus's journey, vividly showcasing infected populations in diverse countries.
+   ![Mapping the Pandemic](Tableau_Visualizations/Mapping_the_Pandemic.png)
+
+4. **Time Series Marvel:**
+   Dive into a captivating time series with a line chart featuring the top 5 countries, predicting the trajectory of infections.
+   ![Time Series Marvel](Tableau_Visualizations/Time_Series_Marvel.png)
+
+## How to Interact
+
+To interact with the Tableau visualizations:
+- Click on the links above to view individual visualizations.
+- For an immersive experience, visit the [Tableau Public Dashboard](link-to-your-tableau-dashboard) for the complete project.
+
+Feel free to explore, analyze, and share your insights!
+
+---
+
+**Note:** Replace `link-to-your-tableau-dashboard` with the actual link to your Tableau Public Dashboard or the hosted version of your project.
+
+
 
