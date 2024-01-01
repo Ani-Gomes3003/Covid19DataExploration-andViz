@@ -1,20 +1,41 @@
-# 🌐 Unveiling Insights: A COVID-19 Data Tale with SQL Exploration
+# 🌐 Unveiling Insights: A COVID-19 Data Tale with SQL Exploration and Tableau Viz
+ 
+## Overview
 
-In this SQL project, we embark on an immersive journey into COVID-19 data, exploring the intricacies of the pandemic through structured database queries. This repository uncovers narratives that go beyond mere statistics, offering unique insights into the impact of the virus on global and regional scales.
+This repository contains SQL queries and Tableau visualizations exploring COVID-19 data. The project aims to uncover insights into the pandemic's impact using data analysis and visualization.
 
-🚀 Project Highlights
-SQL Data Exploration: Crafted a series of SQL queries to navigate and dissect the expansive COVID-19 dataset.
+## SQL Data Exploration
 
-Patterns and Trends: Unveiled hidden patterns in infection rates, providing a dynamic visualization of the pandemic's evolution.
+- **Global Insights Snapshot:**
+  - Query to capture total cases, deaths, and death percentage globally.
 
-Regional Insights: Explored geographical nuances to understand how different regions responded to and recovered from the virus.
+- **Continent Chronicles:**
+  - Query showcasing death counts across continents.
 
-Impact of Interventions: Investigated the effects of various interventions, from lockdowns to widespread vaccination campaigns.
+- **Mapping the Pandemic:**
+  - Query revealing infected populations in diverse countries.
 
-Recovery Rates and Resilience: Analyzed recovery rates, offering a story of resilience and the efficacy of healthcare systems.
+- **Time Series Marvel:**
+  - Query predicting the trajectory of infections with a time series line chart.
 
-Visualizations: Translated SQL insights into compelling visualizations, creating a captivating narrative of the pandemic journey.
+## Tableau Visualizations
 
+- **Global Insights Snapshot:**
+  - Visual exploration of total cases, deaths, and death percentage globally.
 
-Use `SELECT * FROM table_name;` to retrieve all records from a table.
+- **Continent Chronicles:**
+  - Dynamic pie chart displaying death counts across continents.
+
+- **Mapping the Pandemic:**
+  - Captivating map showcasing the virus's journey.
+
+- **Time Series Marvel:**
+  - Line chart featuring the top 5 countries, predicting infection trajectory.
+
+## How to Run the Project Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+
 
