@@ -128,15 +128,6 @@ WHERE
     dea.continent IS NOT NULL 
 ORDER BY RollingPeopleVaccinated desc
 
-
-
-
-
-
-
-
-
-\
 -- Using CTE to perform Calculation on Partition By in previous query
 
 With PopvsVac (Continent, Location, Date, Population, New_Vaccinations,  RollingPeopleVaccinated) 
@@ -153,79 +144,4 @@ ORDER BY RollingPeopleVaccinated desc
 )
 select *, (RollingPeopleVaccinated/Population)* 100  as VacinatedPerc from PopvsVac
 
--- Using Temp Table to perform Calculation on Partition By in previous query
 
-
-
-DROP Table if exists  PercentPopulationVaccinated
-Create Table PercentPopulationVaccinated
-(
-Continent nvarchar(255),
-Location nvarchar(255),
-Date datetime,
-Population numeric,
-New_vaccinations numeric,
-RollingPeopleVaccinated numeric
-)
-
-Insert into PercentPopulationVaccinated
-Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations, 
-SUM(Cast(vac.new_vaccinations)as signed) OVER (Partition by dea.Location Order by dea.location, dea.Date) as RollingPeopleVaccinated
--- , (RollingPeopleVaccinated/population)*100
-From covidds as dea
-Join covidvacs as vac
-	On dea.location = vac.location
-	and dea.date = vac.date
--- where dea.continent is not null 
--- order by 2,3
-
-Select *, (RollingPeopleVaccinated/Population)*100
-From PercentPopulationVaccinated
-
-
--- Creating View to store data for later visualizations
-
-CREATE VIEW PercentPopulationVaccinated AS
-SELECT
-    dea.continent,
-    dea.location,
-    dea.date,
-    dea.population,
-    vac.new_vaccinations,
-    SUM(CAST(vac.new_vaccinations AS SIGNED)) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date) AS RollingPeopleVaccinated,
-    (SUM(CAST(vac.new_vaccinations AS SIGNED)) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date) / dea.population) * 100 AS PercentVaccinated
-FROM
-    covidds AS dea
-JOIN
-    covidvacs AS vac ON dea.location = vac.location AND dea.date = vac.date
-WHERE
-    dea.continent IS NOT NULL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Create View PercentPopulationVaccinated as
-Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
-, SUM(Cast(vac.new_vaccinations)as signed) OVER (Partition by dea.Location Order by dea.location, dea.Date) as RollingPeopleVaccinated
---, (RollingPeopleVaccinated/population)*100
-From covidds as  dea
-Join covidvac vac
-	On dea.location = vac.location
-	and dea.date = vac.date
-where dea.continent is not null 
